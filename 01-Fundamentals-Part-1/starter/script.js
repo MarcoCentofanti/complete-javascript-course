@@ -52,7 +52,7 @@ if (isOldEnough) {
   }
 }
 */
-
+/*
 // LESSON 20
 
 // TYPE CONVERSION
@@ -74,3 +74,59 @@ console.log("23" / 2);
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
+
+*/
+/*
+// LESSON 21
+//  5 falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+  console.log("Dont spend it all ;)");
+} else {
+  console.log("You should get a job");
+}
+
+let height;
+if (height) {
+  console.log("DEFINED");
+} else {
+  console.log("UNDEFINED");
+}
+*/
+
+// LESSON 22
+
+const age = 18;
+if (age === 18) console.log("you just became an adult (Strict)");
+
+if (age == 18) console.log("you just became an adult (loose)");
+
+const age2 = "18";
+if (age2 === 18) console.log("you just became an adult (Strict)");
+
+if (age2 == 18) console.log("you just became an adult (loose)");
+
+const favorite = Number(prompt("insert a number"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+  console.log("Cool 23!");
+} else if (favorite === 7) {
+  console.log("7 is Cool");
+} else if (favorite === 9) {
+  console.log("9 is also Cool");
+} else {
+  console.log("No 23, 7 or 9");
+}
+
+if (favorite !== 23) {
+  console.log("wht not 23?");
+}
