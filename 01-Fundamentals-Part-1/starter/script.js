@@ -100,7 +100,7 @@ if (height) {
   console.log("UNDEFINED");
 }
 */
-
+/*
 // LESSON 22
 
 const age = 18;
@@ -130,3 +130,92 @@ if (favorite === 23) {
 if (favorite !== 23) {
   console.log("wht not 23?");
 }
+*/
+/*
+//LESSON 23 -24
+
+const hasDriversLicense = true; // A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Can drive");
+} else {
+  console.log("cannot drive");
+}
+
+const isTired = true; // C
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Can drive");
+} else {
+  console.log("cannot drive");
+}
+*/
+// LESSON 26
+/*
+const day = "sunday";
+
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+    break;
+  case "tuesday":
+    console.log("Prepare videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("write code examlpe");
+    break;
+  case "friday":
+    console.log("Record video");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy teh weekend");
+    break;
+  default:
+    console.log("Not a valid day");
+}
+
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("Go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("Prepare videos");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("write code examlpe");
+} else if (day === "friday") {
+  console.log("Record video");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy teh weekend");
+} else {
+  console.log("Not a valid day");
+}
+*/
+
+//  LESSON 28
+
+const age = 23;
+
+age >= 18;
+// ? console.log("I like drink wine")
+// : console.log("I like drink water");
+
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+  drink2 = "wine 2";
+} else {
+  drink2 = "water 2";
+}
+
+console.log(drink2);
+
+console.log(`I like to dring ${age >= 18 ? "wine 3" : "water3"}`);
